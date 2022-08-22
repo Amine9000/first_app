@@ -1,0 +1,72 @@
+#adminNav {
+  width: 100%;
+  height: 50px;
+  background: var(--dark-1);
+  border-radius: 5px;
+}
+#adminNav #adminMenu {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+#adminNav #adminMenu a {
+  width: 100%;
+  height: 100%;
+}
+
+#adminNav a #adminMenu .adminItem {
+  height: 100%;
+  width: 100%;
+  flex: 1 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#adminNav a #adminMenu .adminItem div {
+  height: 50%;
+  width: 50%;
+  background: var(--white);
+}
+
+#adminMsg {
+  background: var(--blue);
+}
+#adminMsg:hover {
+  box-shadow: 1px 1px 3px var(--blue), -1px -1px 3px var(--blue);
+}
+#adminAdd {
+  background: var(--red);
+}
+#adminAdd:hover {
+  box-shadow: 1px 1px 3px var(--red), -1px -1px 3px var(--red);
+}
+#adminRemove {
+  background: var(--orange);
+}
+#adminRemove:hover {
+  box-shadow: 1px 1px 3px var(--orange), -1px -1px 3px var(--orange);
+}
+#adminStat {
+  background: var(--green);
+}
+#adminStat:hover {
+  box-shadow: 1px 1px 3px var(--green), -1px -1px 3px var(--green);
+}
+
+#adminMsg div {
+  -webkit-mask: url(./assets/icons/comment.svg) no-repeat center;
+}
+#adminAdd div {
+  -webkit-mask: url(./assets/icons/file-circle-plus.svg) no-repeat center;
+}
+#adminRemove div {
+  -webkit-mask: url(./assets/icons/file-circle-minus.svg) no-repeat center;
+}
+#adminStat div {
+  -webkit-mask: url(./assets/icons/chart-bar.svg) no-repeat center;
+}

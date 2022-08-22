@@ -1,0 +1,60 @@
+#contactIcon {
+  height: 50%;
+  width: 1.5rem;
+  background: var(--gray);
+  -webkit-mask: url(./assets/icons/address-card.svg) no-repeat center;
+}
+
+#contact-infos {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: var(--dark-1);
+  color: #fff;
+  border-radius: 5px;
+}
+#contact-infos .info-row {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+#contact-infos .info-row > div {
+  flex: 1 1;
+}
+#contact-infos .info-row .info-name {
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contact-infos .info-row .info-name .info-icon {
+  height: 60%;
+  width: 10%;
+  background: var(--white);
+}
+#email {
+  -webkit-mask: url(./assets/icons/at.svg) no-repeat center;
+}
+#phone {
+  -webkit-mask: url(./assets/icons/whatsapp.svg) no-repeat center;
+}
+#facebook {
+  -webkit-mask: url(./assets/icons/facebook.svg) no-repeat center;
+}
+#youtube {
+  -webkit-mask: url(./assets/icons/youtube.svg) no-repeat center;
+}
+
+#contact-infos .info-row .info-name .info-text {
+  font-weight: bold;
+}
+#contact-infos .info-row .info-value {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--light);
+}
